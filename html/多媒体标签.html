@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta name="generator" content="HTML Tidy for HTML5 for Windows version 5.6.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HTML 语言入门">
+    <meta name="keywords" content="HTML,教程">
+    <meta name="author" content="张三">
+    <title>
+      多媒体标签
+    </title>
+  </head>
+  <body>
+  <header>
+  <h1>多媒体标签</h1>
+  <a href="./test.html">首页</a>
+  </header>
+	<main>
+	<video src="../培训视频/8月8日上午.mp4" controls width=200px height=200px preload="metadata" > 
+  <p>你的浏览器不支持 HTML5 视频，请下载<a href="example.mp4">视频文件</a>。</p>
+</video>
+<video controls src="../培训视频/8月8日上午.mp4" width=200px height=200px>
+   <track label="英文" kind="subtitles" src="subtitles_en.vtt" srclang="en">
+   <track label="中文" kind="subtitles" src="subtitles_cn.vtt" srclang="cn" default>
+</video>
+
+<audio controls>
+  <source src="foo.mp3" type="audio/mp3">
+  <source src="foo.ogg" type="audio/ogg"><!--假的音频-->
+  <p>你的浏览器不支持 HTML5 音频，请直接下载<a href="foo.mp3">音频文件</a>。</p>
+</audio>
+	</main>
+ <footer><p>© 2018 xxx 公司</p></footer>
+ </body>
+</html>
